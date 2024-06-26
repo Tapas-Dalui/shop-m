@@ -1,14 +1,32 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 import cart_icon from '../../assets/cart_icon.png'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
+
 
 function Navbar() {
 
     const [menu, setMenu] = useState("Shop")
     const {getTotalCartItems} = useContext(ShopContext)
+
+    const location = useLocation()
+
+    useEffect(() => {
+        if (location.pathname === "/womens") {
+          setMenu("Womens");
+        } else if (location.pathname === "/") {
+          setMenu("Shop");
+        } else if (location.pathname === "/mens") {
+          setMenu("Mens");
+        } else if (location.pathname === "/kids") {
+          setMenu("Kids");
+        } else {
+          setMenu(" ");
+        }
+      }, [location]);
+
     return (
         <>
             <div className="navbar">
