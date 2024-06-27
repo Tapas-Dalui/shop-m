@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import './CartItems.css'
 import { ShopContext } from "../../Context/ShopContext";
-import remove_icon from '../../assets/cart_cross_icon.png'
+import { ImCross } from "react-icons/im";
 
 function CartItems() {
     const { all_product, cartItem, addToCart, removeFromCart,getTotalCartAmount } =
@@ -31,7 +31,8 @@ function CartItems() {
                                         <p>${item.new_price}</p>
                                         <button className="quantity">{cartItem[item.id]}</button>
                                         <p>${item.new_price * cartItem[item.id]}</p>
-                                        <img src={remove_icon} onClick={() => { removeFromCart(item.id) }} className="cart-remove-icon" />
+                                        <ImCross onClick={() => { removeFromCart(item.id) }} className="cart-remove-icon"/>
+                                        
                                     </div>
                                     <hr />
                                 </div>

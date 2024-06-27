@@ -26,9 +26,11 @@
 
 }
 .cart-remove-icon{
-    width: 15px;
     margin: 0 40px;
     cursor: pointer;
+}
+.cart-remove-icon:hover{
+   color: #ff0000;
 }
 .quantity{
     width: 40px;
@@ -61,7 +63,7 @@
     outline: none;
     border: none;
     color: #fff;
-    background: #ff5a5a;
+    background: #5E17EB;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
@@ -77,26 +79,30 @@
 
 }
 .promo-box{
-    width: 440px;
-    margin-top: 15px;
-    padding-left: 20px;
-    height: 58px;
-    background: #eaeaea;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaeaea;
+    border-radius: 4px;
 
 }
 .promo-box input{
+    background: transparent;
     border: none;
     outline: none;
-    background: transparent;
-    font-size: 16px;
-    width: 160px;
-    height: 50px;
+    padding-left: 10px;
+    font-size: 17px;
 }
 .promo-box button{
-    width: 80px;
-    height: 58px;
-    font-size: 16px;
-    background: #000;
-    color: #fff;
+    width: max(10vw, 150px);
+    height: 100%;
+    padding: 12px 5px;
+    background-color: #5E17EB;
+    border: none;
+    color: #f8f8f8;
+    border-radius: 4px;
+    font-size: 17px;
+    cursor: pointer;
     /* margin-left: 200px; */
 }

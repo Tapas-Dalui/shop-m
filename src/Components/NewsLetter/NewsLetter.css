@@ -8,11 +8,11 @@
     margin: auto;
     padding: 0 100px;
     margin-bottom: 150px;
-    background:linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    background:linear-gradient(180deg, #b68eff, #dcffe722 60%);
     gap: 20px;
 }
 .newsletter h1{
-    color: #454545;
+    color: #242424;
     font-size: 30px;
     font-weight: 600;
 }
