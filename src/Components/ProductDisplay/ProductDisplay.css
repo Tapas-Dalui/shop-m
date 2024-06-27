@@ -38,6 +38,10 @@
     color: #3d3d3d;
     font-size: 16px;
 }
+.star-icon{
+    color: #ecd100;
+    font-size: 20px;
+}
 .prices{
     display: flex;
     margin: 40px 0;

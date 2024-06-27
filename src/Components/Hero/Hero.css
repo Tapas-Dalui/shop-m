@@ -1,6 +1,7 @@
 .hero{
     height: 100vh;
-    background:linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    /* background:linear-gradient(180deg, #8f1ce2, #0cff555b 60%); */
+    background: url('/src/assets/img1.jpg');
     display: flex;
 }
 .hero-left{
@@ -32,6 +33,9 @@
 .hreo-hand-icon img{
     width: 100px;
 
+}
+.arrow-icon{
+    font-size: 25px;
 }
 .hero-latest-button{
     display: flex;

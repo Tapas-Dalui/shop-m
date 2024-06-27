@@ -3,6 +3,8 @@ import './ProductDisplay.css'
 import star_icon from '../../assets/star_icon.png'
 import star_dull_icon from '../../assets/star_dull_icon.png'
 import { ShopContext } from '../../Context/ShopContext'
+import { FaStar } from "react-icons/fa";
+import { FaStarHalfStroke } from "react-icons/fa6";
 
 
 function ProductDisplay({product}) {
@@ -28,11 +30,11 @@ function ProductDisplay({product}) {
                 <div className="right">
                     <h1>{product.name}</h1>
                     <div className="stars">
-                        <img src={star_icon} alt="" />
-                        <img src={star_icon} alt="" />
-                        <img src={star_icon} alt="" />
-                        <img src={star_icon} alt="" />
-                        <img src={star_dull_icon} alt="" />
+                        <FaStar className='star-icon'/>
+                        <FaStar className='star-icon'/>
+                        <FaStar className='star-icon'/>
+                        <FaStar className='star-icon'/>
+                        <FaStarHalfStroke className='star-icon'/>
                         <p>(122)</p>
                     </div>
                     <div className="prices">

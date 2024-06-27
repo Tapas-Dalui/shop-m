@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './CSS/ShopCategory.css'
 import { ShopContext } from '../Context/ShopContext'
-import dropdown_icon from '../assets/dropdown_icon.png'
+import { FaChevronDown } from "react-icons/fa";
 import Item from '../Components/Items/Item'
 function ShopCategory(props) {
 
@@ -16,7 +16,11 @@ function ShopCategory(props) {
               <span>Showing 1-12</span> out of 36 products
             </p>
             <div className="shopcategory-sort">
-              Sort by <img src={dropdown_icon} alt="" />
+               <div className="text">Sort by</div>
+               <div>
+                <FaChevronDown className='down-arrow'/>
+               </div>
+               
             </div>
           </div>
           <div className="shopcategory-products">

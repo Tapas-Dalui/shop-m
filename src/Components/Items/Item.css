@@ -1,5 +1,12 @@
 .item{
     width: 250px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.064);
+    padding: 15px 15px;
+    margin-bottom: 25px;
+    margin-right: 12px;
 }
 .item p{
     margin: 6px 0;
@@ -12,9 +19,9 @@
     gap: 20px;
 }
 .item-price-new{
-    color: #373737;
+    color: #5E17EB;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: bold;
 }
 .item-price-old{
     color: #8c8c8c;
