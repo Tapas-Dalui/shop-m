@@ -4,6 +4,12 @@
     margin-bottom: 30px;
     width: 90%;
     z-index: -9;
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 80px; */
 }
 .shopcategory-indexSort{
     display: flex;
@@ -28,10 +34,14 @@
 
 }
 .shopcategory-products{
-    margin: 20px 170px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
 }
 .load-more{
     display: flex;

@@ -7,6 +7,10 @@
 }
 .icons{
     font-size: 25px;
+    cursor: pointer;
+}
+.icons:hover{
+    color: #5E17EB;
 }
 .footer-logo{
     display: flex;
@@ -55,3 +59,8 @@
     background: #cfcfcf;
 }
 
+/*** RESPONSIVE **/
+
+@media (max-width:1000px){
+
+}

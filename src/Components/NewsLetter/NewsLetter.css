@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    padding: 0 100px;
-    margin-bottom: 150px;
+    padding: 0 50px;
+    margin-bottom: 100px;
     background:linear-gradient(180deg, #b68eff, #dcffe722 60%);
     gap: 20px;
 }
@@ -25,13 +25,13 @@
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    width: 730px;
-    height: 70px;
+    width: 100%;
+    height: auto;
     border-radius: 80px;
     border: 1px solid #e3e3e3;
 }
 .newsletter input{
-    width: 500px;
+    width: 100%;
     margin-left: 30px;
     border: none;
     outline: none;
