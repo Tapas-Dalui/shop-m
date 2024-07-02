@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/shop.png'
+import { footer_logo } from '../../assets/shop.png'
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
@@ -13,7 +13,7 @@ function Footer() {
             <div className="footer">
                 <div className="footer-logo">
                     <img src={footer_logo} alt="" />
-                    
+
                 </div>
                 <ul className="footer-links">
                     <li>Company</li>
@@ -24,10 +24,10 @@ function Footer() {
                 </ul>
                 <div className="footer-socials-icons">
                     <div className="footer-icons-container">
-                    <FaWhatsapp className='icons'/>
+                        <FaWhatsapp className='icons' />
                     </div>
                     <div className="footer-icons-container">
-                        <FaFacebook className='icons'/>
+                        <FaFacebook className='icons' />
                     </div>
                     <div className="footer-icons-container">
                         <FaInstagram className='icons' />

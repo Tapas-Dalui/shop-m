@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import "./Navbar.css";
-import logo from "../../assets/shop.png";
+import {logo} from "../../assets/shop.png";
 import { Link, useLocation } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
 import { IoCartOutline } from "react-icons/io5";
