@@ -1,0 +1,11 @@
+.hero{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 0px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.banner-top img, .banner-bottom img{
+    width: 100%;
+}
