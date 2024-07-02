@@ -13,7 +13,7 @@ function Footer() {
             <div className="footer">
                 <div className="footer-logo">
                     <img src={assets.logo} alt="" />
-                    <img src="" alt="" />
+                    
                 </div>
                 <ul className="footer-links">
                     <li>Company</li>
