@@ -1,10 +1,10 @@
 import React from 'react'
 import './Footer.css'
-// import { footer_logo } from '../../assets/shop.png'
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
+import { assets } from '../../assets/logo';
 
 function Footer() {
     const date = new Date()
@@ -12,8 +12,8 @@ function Footer() {
         <>
             <div className="footer">
                 <div className="footer-logo">
-                    {/* <img src={footer_logo} alt="" /> */}
-
+                    <img src={assets.logo} alt="" />
+                    <img src="" alt="" />
                 </div>
                 <ul className="footer-links">
                     <li>Company</li>

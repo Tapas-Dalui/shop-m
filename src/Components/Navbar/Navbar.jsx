@@ -1,10 +1,10 @@
 import React, { useContext, useState, useEffect } from "react";
 import "./Navbar.css";
-import { logo } from "../../assets/shop.png";
 import { Link, useLocation } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
 import { IoCartOutline } from "react-icons/io5";
 import { FaBarsStaggered } from "react-icons/fa6";
+import { assets } from "../../assets/logo";
 
 function Navbar() {
 
@@ -37,7 +37,7 @@ function Navbar() {
   return (
     <>
       <nav className="container">
-        <img src={logo} className="logo" />
+        <img src={assets.logo} className="logo" alt="Shop Logo" />
         <ul className={mobileMenu ? "hide-mobile-menu" : ""}>
           <li
             onClick={() => {
